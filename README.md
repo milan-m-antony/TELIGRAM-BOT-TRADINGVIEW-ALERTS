@@ -89,7 +89,7 @@ Go to the Settings tab of your Railway project.
 
 Add the following environment variables:
 
-GMAIL_USER: Your Gmail address (e.g., your-email@gmail.com).
+GMAIL_USER: Your Gmail address (e.g., your-email@gmail.com) <br>
 GMAIL_PASSWORD: Your Gmail app-specific password.
 BOT_TOKEN: Your Telegram Bot API token.
 GROUP_CHAT_ID: Your Telegram group chat ID.
