@@ -1,8 +1,8 @@
 import asyncio
 from telegram import Bot
 
-BOT_TOKEN = "8148970327:AAEHknRF058G5CFKH2WlJXI4MMVMiApOD4U"
-GROUP_CHAT_ID = "-1002369350392"  # Use your actual Telegram group chat ID
+BOT_TOKEN = ""   # Use your actual Telegram  bot token
+GROUP_CHAT_ID = ""  # Use your actual Telegram group chat ID
 
 bot = Bot(token=BOT_TOKEN)
 
