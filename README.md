@@ -22,7 +22,7 @@ This Python script monitors Gmail for new emails, checks for specific content re
 ### TradingView Alerts:
 This script is designed to work with TradingView email alerts. To use this bot, you'll need to create an account on [TradingView](https://www.tradingview.com/), set up email alerts for your desired trading conditions (e.g., when BTCUSD crosses a certain price), and link your Gmail account to this script. The bot will automatically check your inbox for new alerts and forward them to your Telegram group or channel.
 
-### Setting Up Gmail with 2-Step Verification and App Password:
+### Setting Up Gmail with 2-Step Verification for App Password:
 To securely use your Gmail account for this bot, you must enable two-factor authentication (2FA) and generate an App Password. Here's how:
 
 1. **Enable 2-Step Verification (2FA):**
@@ -44,4 +44,27 @@ To securely use your Gmail account for this bot, you must enable two-factor auth
    Example:
    ```python
    GMAIL_PASSWORD = "jcut qqkp lniu gqdz"  # Your Gmail App-specific password
+   
+4.**Telegram Bot and Channel Setup:**
+
+You will need both a Telegram Bot and a Telegram Channel or Group to use this script. Follow these steps:
+
++. Create a Telegram Bot:
+   
+Open Telegram and search for BotFather.
+Start a chat with BotFather and type /newbot to create a new bot.
+Follow the prompts to name your bot and get your Bot Token. This token will be used to authenticate your bot with the Telegram API.
+
++. Create a Telegram Channel or Group:
+
+Create a Channel (or Group) in Telegram where you want the alerts to be sent.
+For a Channel, go to the Channel Settings and copy the Chat ID. The Chat ID usually starts with @ for public channels (e.g., @MyChannel) or a numeric ID for private channels.
+For a Group, add your bot to the group and get the Group Chat ID (use tools like @userinfobot to get the Chat ID).
+
++. Update the Script with Bot Token and Chat ID: for app.py & test.py
+Replace BOT_TOKEN with the token you received from BotFather.
+Replace GROUP_CHAT_ID with the Chat ID of your Telegram Channel or Group.
+
+BOT_TOKEN = "YOUR_BOT_TOKEN"  # Bot token from BotFather
+GROUP_CHAT_ID = "@your_channel_or_group_id"  # Channel or Group chat ID
 
