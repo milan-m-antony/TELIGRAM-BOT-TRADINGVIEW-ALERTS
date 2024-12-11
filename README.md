@@ -1,4 +1,4 @@
-# TELIGRAM-BOT-TRADINGVIEW-ALERTS
+![image](https://github.com/user-attachments/assets/e51c70a4-b3c6-4e89-9eb3-8e52fa75b859)# TELIGRAM-BOT-TRADINGVIEW-ALERTS
 
 
 This Python script monitors Gmail for new emails, checks for specific content related to trading signals from TradingView, and sends alerts to a Telegram group or channel.
@@ -85,15 +85,14 @@ Create a New Project:
     
 ### Add Environment Variables in Railway
 
-Go to the Settings tab of your Railway project.
+Go to the Settings tab of your Railway project-select variables-choose raw editor
 
 Add the following environment variables:
 
-GMAIL_USER: Your Gmail address (e.g., your-email@gmail.com) <br>
-GMAIL_PASSWORD: Your Gmail app-specific password.
-BOT_TOKEN: Your Telegram Bot API token.
-GROUP_CHAT_ID: Your Telegram group chat ID.
-
+GMAIL_USER="" `Your Gmail address e.g., your-email@gmail.com`
+GMAIL_PASSWORD="" `Your Gmail app-specific password`
+BOT_TOKEN="" `Your Telegram Bot API token.  `
+GROUP_CHAT_ID="" `Your Telegram group chat ID.`
    
 Deploy the Project: Railway will automatically deploy your project. You can view logs and manage the deployment from the Railway dashboard.
 
