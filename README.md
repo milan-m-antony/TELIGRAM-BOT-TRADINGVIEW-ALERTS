@@ -83,11 +83,17 @@ Create a New Project:
     On the Railway dashboard, click New Project.
     Select Deploy from GitHub and link your repository.
     
-Add Environment Variables in Railway: Go to the Settings tab of your Railway project and add the following environment variables:
-   GMAIL_USER: Your Gmail address (e.g., your-email@gmail.com).
-   GMAIL_PASSWORD: Your Gmail app-specific password.
-   BOT_TOKEN: Your Telegram Bot API token.
-   GROUP_CHAT_ID: Your Telegram group chat ID.
+### Add Environment Variables in Railway
+
+Go to the Settings tab of your Railway project.
+
+Add the following environment variables:
+
+GMAIL_USER: Your Gmail address (e.g., your-email@gmail.com).
+GMAIL_PASSWORD: Your Gmail app-specific password.
+BOT_TOKEN: Your Telegram Bot API token.
+GROUP_CHAT_ID: Your Telegram group chat ID.
+
    
 Deploy the Project: Railway will automatically deploy your project. You can view logs and manage the deployment from the Railway dashboard.
 
