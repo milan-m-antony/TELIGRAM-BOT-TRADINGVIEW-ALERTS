@@ -64,7 +64,8 @@ For a Group, add your bot to the group and get the Group Chat ID (use tools like
 +. Update the Script with Bot Token and Chat ID: for app.py & test.py
 Replace BOT_TOKEN with the token you received from BotFather.
 Replace GROUP_CHAT_ID with the Chat ID of your Telegram Channel or Group.
-
+  ```python
 BOT_TOKEN = "YOUR_BOT_TOKEN"  # Bot token from BotFather
 GROUP_CHAT_ID = "@your_channel_or_group_id"  # Channel or Group chat ID
+
 
