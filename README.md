@@ -72,9 +72,24 @@ For a Group, add your bot to the group and get the Group Chat ID (use tools like
 Replace BOT_TOKEN with the token you received from BotFather.
 Replace GROUP_CHAT_ID with the Chat ID of your Telegram Channel or Group.
 
-
 `BOT_TOKEN = "YOUR_BOT_TOKEN"  # Replace with your bot token from BotFather
 GROUP_CHAT_ID = "@your_channel_or_group_id"  # Replace with your channel or group chat ID`
+
+### Deploy on Railway:
+
+Sign Up/Log In to Railway: Visit Railway and sign up using your GitHub account.
+
+Create a New Project:
+    On the Railway dashboard, click New Project.
+    Select Deploy from GitHub and link your repository.
+    
+Add Environment Variables in Railway: Go to the Settings tab of your Railway project and add the following environment variables:
+   GMAIL_USER: Your Gmail address (e.g., your-email@gmail.com)
+   GMAIL_PASSWORD: Your Gmail app-specific password
+   BOT_TOKEN: Your Telegram Bot API token
+   GROUP_CHAT_ID: Your Telegram group chat ID
+   
+Deploy the Project: Railway will automatically deploy your project. You can view logs and manage the deployment from the Railway dashboard.
 
 
 
