@@ -89,9 +89,9 @@ Go to the Settings tab of your Railway project-select variables-choose raw edito
 
 Add the following environment variables:
 
-GMAIL_USER="" `Your Gmail address e.g., your-email@gmail.com`
-GMAIL_PASSWORD="" `Your Gmail app-specific password`
-BOT_TOKEN="" `Your Telegram Bot API token.  `
+GMAIL_USER="" `Your Gmail address e.g., your-email@gmail.com` <br>
+GMAIL_PASSWORD="" `Your Gmail app-specific password` <br>
+BOT_TOKEN="" `Your Telegram Bot API token.  ` <br>
 GROUP_CHAT_ID="" `Your Telegram group chat ID.`
    
 Deploy the Project: Railway will automatically deploy your project. You can view logs and manage the deployment from the Railway dashboard.
