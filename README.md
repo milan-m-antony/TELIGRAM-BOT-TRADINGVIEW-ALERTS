@@ -3,11 +3,18 @@
 
 This Python script monitors Gmail for new emails, checks for specific content related to trading signals from TradingView, and sends alerts to a Telegram group or channel.
 
+### Features:
+Monitors Gmail for unread emails.
+Forwards email alerts to Telegram group.
+Supports custom message formatting for better styling.
+Deployed on Railway for continuous operation (cloud service with free credits).
+
 ### How to Use:
 1. Clone this repository.
-2. Set up your Gmail account and Telegram bot (see instructions below).
-3. Install required dependencies using `pip install -r requirements.txt`.
-4. Run the script!
+2. Set up your Gmail account and Telegram bot and group/channel for receiving alerts (see instructions below).
+3. Clone the Repository: `git clone https://github.com/yourusername/your-repository.git`
+4. Install required dependencies using `pip install -r requirements.txt`.
+5. Run the script!
 
 ### Dependencies:
 - `imaplib`
