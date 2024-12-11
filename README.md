@@ -1,4 +1,5 @@
 # TELIGRAM-BOT-TRADINGVIEW-ALERTS
+   ![Screenshot 2024-12-11 220649](https://github.com/user-attachments/assets/ca3b9b5c-d64f-4de9-9417-6392f677d36a)
 
 
 This Python script monitors Gmail for new emails, checks for specific content related to trading signals from TradingView, and sends alerts to a Telegram group or channel.
