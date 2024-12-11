@@ -12,7 +12,7 @@ Deployed on Railway for continuous operation (cloud service with free credits).
 ### How to Use:
 1. Clone this repository.
 2. Set up your Gmail account and Telegram bot and group/channel for receiving alerts (see instructions below).
-3. Clone the Repository: `git clone https://github.com/yourusername/your-repository.git`
+3. Clone the Repository: `git clone https://github.com/milan-m-antony/TELIGRAM-BOT-TRADINGVIEW-ALERTS.git`
 4. Install required dependencies using `pip install -r requirements.txt`.
 5. Run the script!
 
