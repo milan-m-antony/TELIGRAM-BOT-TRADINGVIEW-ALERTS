@@ -8,12 +8,12 @@ from telegram import Bot
 from telegram.error import TelegramError
 
 # Gmail configuration
-GMAIL_USER = "hackerseye2002@gmail.com"  # Your Gmail address
-GMAIL_PASSWORD = "jcut qqkp lniu gqdz"  # Your Gmail app-specific password
+GMAIL_USER = ""  # Your Gmail address
+GMAIL_PASSWORD = ""  # Your Gmail app-specific password
 
 # Telegram Bot configuration
-BOT_TOKEN = "8148970327:AAEHknRF058G5CFKH2WlJXI4MMVMiApOD4U"
-GROUP_CHAT_ID = "-1002274578233"  # Use your actual Telegram group chat ID
+BOT_TOKEN = ""
+GROUP_CHAT_ID = ""  # Use your actual Telegram group chat ID
 
 # Set up the Telegram bot
 bot = Bot(token=BOT_TOKEN)
